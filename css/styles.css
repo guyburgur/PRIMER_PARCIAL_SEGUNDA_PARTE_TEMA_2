@@ -31,3 +31,18 @@ body {
 .button:focus {
   outline: 2px solid #ffbf47;
 }
+h1, h2 {
+  color: skyblue;
+  background-color: #333333;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  padding: 10px;
+}
+
+color-container
+    red: E72623
+    onyx: 131613
+    sky-aqua: 42C7F0
+    steel-azure: 054A91
+    white: FFFFFF
+    graphite: 333333
