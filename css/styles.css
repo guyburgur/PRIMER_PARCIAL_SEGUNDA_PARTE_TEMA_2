@@ -1,3 +1,33 @@
+/*temporarily removed background image to improve readability of text content*/
+body {}
+    background-image: url('../img/fondo.png')
 body {
-    background-image: url('../img/fondo.png');
+    background-color: #f0f0f0;
+}
+.abel-regular {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+.button:active {
+  transform: translateY(2px);
+}
+.button:focus {
+  outline: 2px solid #ffbf47;
 }
