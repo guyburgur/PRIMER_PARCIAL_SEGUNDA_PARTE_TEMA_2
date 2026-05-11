@@ -10,9 +10,9 @@ body {
   font-style: normal;
 }
 .button {
-  background-color: #007bff;
+  background-color: skyblue;
   border: none;
-  color: white;
+  color: graphite;
   padding: 12px 24px;
   text-align: center;
   text-decoration: none;
@@ -23,7 +23,7 @@ body {
   transition: background-color 0.3s ease;
 }
 .button:hover {
-  background-color: #0056b3;
+  background-color: darkslateblue;
 }
 .button:active {
   transform: translateY(2px);
@@ -39,10 +39,11 @@ h1, h2 {
   padding: 10px;
 }
 
-color-container
+/* color-container
     red: E72623
     onyx: 131613
     sky-aqua: 42C7F0
     steel-azure: 054A91
     white: FFFFFF
     graphite: 333333
+*/
