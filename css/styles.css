@@ -1,6 +1,7 @@
 /*temporarily removed background image to improve readability of text content*/
-body {}
+body {
     background-image: url('../img/fondo.png')
+}
 body {
     background-color: #f0f0f0;
 }
@@ -14,7 +15,7 @@ body {
   border: none;
   color: graphite;
   padding: 12px 24px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -37,6 +38,68 @@ h1, h2 {
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
   padding: 10px;
+}
+
+p {
+  background-color: #333333;
+  color: whitesmoke;
+  line-height: 1.6;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: justify;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: center;
+  background-color: #333;
+}
+
+.navbar li a {
+  display: block;        
+  color: white;
+  text-align: center;
+  padding: 14px 20px;   
+  text-decoration: none; 
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.quote {
+  font-style: italic;
+  color: whitesmoke;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.address-button {
+  background-color: transparent;
+  border: none;
+  color: skyblue;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;  
+  text-decoration: underline;
+}
+
+.video {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* color-container
